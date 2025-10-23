@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}   
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 80%;
+}
+
+article {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.card_button {
+    background-color: rgb(73, 73, 233);
+    color: white;
+    border-radius: 5px;
+    width: 60%;
+    height: 40px;
+    float: right;
+}
+
+.cart-list {
+  width: 40%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  
+}
+
+.quantita {
+    width: 30%;
+    height: 30px;
+    border-radius: 15%;
+    border-color: #ccc;
+    float: left;
+}
+
+.cart-total {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-top:8px;
+    border-top:1px dashed #e6e9f2;
+    margin-top:8px;
+    font-weight:700;
+    font-size:1rem;
+  }
+
+.remove_button{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    float: right;
+    margin-right: 10%;
+}
+
+.acquista {
+    background-color: rgb(73, 73, 233);
+    color: white;
+    border-radius: 5px;
+    width: 20%;
+    height: auto;
+    float: right;
+}
